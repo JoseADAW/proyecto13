@@ -1,5 +1,7 @@
 <?php
 
+use App\Profession;
+use App\User;
 use Illuminate\Database\Seeder;
 
 class UserSeeder extends Seeder
@@ -27,11 +29,11 @@ class UserSeeder extends Seeder
             ->wheretitle('Desarrollador Back-End')
             ->value('id');*/
 
-        DB::table('users')->insert([
+        User::create([
             'name' => 'Pepe Pérez',
             'email' => 'pepe@mail.es',
             'password' => bcrypt('123456'),
-            'profession_id' => DB::table('professions')
+            'profession_id' => Profession::whereTitle('professions')
                 ->wheretitle('Desarrollador Back-End')
                 ->value('id'),
         ]);
