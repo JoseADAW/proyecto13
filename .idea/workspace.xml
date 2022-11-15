@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f11e12-9712-4147-a4ad-b50e728d4174" name="Changes" comment="paso 18">
+    <list default="true" id="03f11e12-9712-4147-a4ad-b50e728d4174" name="Changes" comment="paso 20">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/UserSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/UsersModuleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/UsersModuleTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +124,7 @@
       <workItem from="1667417894524" duration="1033000" />
       <workItem from="1667583513949" duration="28000" />
       <workItem from="1667583554702" duration="9551000" />
-      <workItem from="1668531805298" duration="7454000" />
+      <workItem from="1668531805298" duration="8862000" />
     </task>
     <task id="LOCAL-00001" summary="1st laracommit">
       <created>1666820015831</created>
@@ -216,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668540923847</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="paso 20">
+      <created>1668541919953</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668541919953</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +258,8 @@
     <MESSAGE value="paso 14" />
     <MESSAGE value="paso 15" />
     <MESSAGE value="paso 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="paso 18" />
+    <MESSAGE value="paso 20" />
+    <option name="LAST_COMMIT_MESSAGE" value="paso 20" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

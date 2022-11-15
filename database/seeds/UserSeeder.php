@@ -38,6 +38,8 @@ class UserSeeder extends Seeder
             'is_admin' => true,
         ]);
 
+
+
         factory(User::class)->create([
             'profession_id' => Profession::whereTitle('Desarrollador Back-End')
             ->value('id'),
