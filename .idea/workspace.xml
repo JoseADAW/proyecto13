@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="03f11e12-9712-4147-a4ad-b50e728d4174" name="Changes" comment="paso 15">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Profession.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Profession.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +121,7 @@
       <workItem from="1667417894524" duration="1033000" />
       <workItem from="1667583513949" duration="28000" />
       <workItem from="1667583554702" duration="9551000" />
-      <workItem from="1668531805298" duration="2461000" />
+      <workItem from="1668531805298" duration="3346000" />
     </task>
     <task id="LOCAL-00001" summary="1st laracommit">
       <created>1666820015831</created>
@@ -195,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667593100701</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="paso 15">
+      <created>1668536336623</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668536336623</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -24,11 +24,11 @@ class User extends Authenticatable
      * @var array
      */
     protected $hidden = [
-        'password', 'remember_token',
+        'password', 'remember_token'
     ];
 
     public function isAdmin()
     {
-        return $this->email==='pepe@mail.es';
+        return $this->email === 'pepe@mail.es';
     }
 }

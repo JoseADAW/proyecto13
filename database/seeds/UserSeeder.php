@@ -20,22 +20,21 @@ class UserSeeder extends Seeder
         );
         $profession = DB::table('professions')
             ->select('id')
-            ->where(['title','Desarrollador Back-End'])
+            ->where('title', 'Desarrollador Back-End')
             ->first();
         $professionId = DB::table('professions')
-            ->where(['title','Desarrollador Back-End'])
+            ->where('title', 'Desarrollador Back-End')
             ->value('id');
         $professionId = DB::table('professions')
-            ->wheretitle('Desarrollador Back-End')
+            ->whereTitle('Desarrollador Back-End')
             ->value('id');*/
 
         User::create([
             'name' => 'Pepe Pérez',
             'email' => 'pepe@mail.es',
             'password' => bcrypt('123456'),
-            'profession_id' => Profession::whereTitle('professions')
-                ->wheretitle('Desarrollador Back-End')
-                ->value('id'),
+            'profession_id' => Profession::whereTitle('Desarrollador Back-End')
+                ->value('id')
         ]);
     }
 }
