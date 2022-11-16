@@ -1,13 +1,10 @@
 @extends('layout')
 
-@section('title', "Usuario #{$id}")
+@section('title', "Usuario #{$user->id}")
 
 @section('content')
-    <h1>Usuario #{{ $id }}</h1>
+    <h1>Usuario #{{ $user->id }}</h1>
 
-    <p>Mostrando los detalles del usuario #{{ $id }}</p>
-@endsection
-
-@section('sidebar')
-    <h2>Barra lateral personaliza</h2>
+    <p>Mostrando los detalles del usuario {{ $user->name }}</p>
+    <p>Correo electronico {{ $user->email }}</p>
 @endsection
