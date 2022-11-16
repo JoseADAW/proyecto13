@@ -7,6 +7,17 @@
 
     <form action="{{route('user.store')}}" method="post">
         {{csrf_field()}}
+
+        <label for="name">Nombre:</label>
+        <input type="text" name="name"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email"><br>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password"><br>
+
+
         <button type="submit">Crear usuario</button>
     </form>
 

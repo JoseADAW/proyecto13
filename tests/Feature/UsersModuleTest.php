@@ -76,4 +76,39 @@ class UsersModuleTest extends TestCase
             ->assertStatus(404)
             ->assertSee('Pagina no encontrada');
     }
+    /**
+     * @test
+     */
+    function it_create_a_new_user()
+    {
+        $this->post('usuarios',[
+            'name'=>'Pepe',
+            'email'=>'pepe@mail.es',
+            'password'=>'123456',
+        ])->assertRedirect('usuarios');
+
+        $this->assertCredentials([
+            'name'=>'Pepe',
+            'email'=>'pepe@mail.es',
+            'password'=>'123456',
+        ]);
+    }
+
+    /**
+     * @test
+     */
+    function the_name_is_required()
+    {
+        //$this->withoutExceptionHandling();
+
+        $this->from('usuarios/nuevo')
+            ->post('usuarios',[
+            'name' => '',
+            'email'=>'pepe@mail.es',
+        'password'=>'12345678',
+        ])->assertRedirect('usuarios/nuevo')
+        ->assertSessionHasErrors(['name' => 'El campo nombre es obligatorio']);
+
+        $this->assertEquals(0,User::count());
+    }
 }
