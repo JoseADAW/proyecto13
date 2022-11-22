@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f11e12-9712-4147-a4ad-b50e728d4174" name="Changes" comment="paso 31">
-      <change afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
+    <list default="true" id="03f11e12-9712-4147-a4ad-b50e728d4174" name="Changes" comment="paso 32">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
@@ -129,7 +128,7 @@
       <workItem from="1668624508005" duration="5415000" />
       <workItem from="1669138814358" duration="7000" />
       <workItem from="1669138833958" duration="1000" />
-      <workItem from="1669138846613" duration="7483000" />
+      <workItem from="1669138846613" duration="8260000" />
     </task>
     <task id="LOCAL-00001" summary="1st laracommit">
       <created>1666820015831</created>
@@ -306,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669145718277</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="paso 32">
+      <created>1669147234143</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1669147234143</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +357,8 @@
     <MESSAGE value="paso 29" />
     <MESSAGE value="paso 30" />
     <MESSAGE value="paso 31" />
-    <option name="LAST_COMMIT_MESSAGE" value="paso 31" />
+    <MESSAGE value="paso 32" />
+    <option name="LAST_COMMIT_MESSAGE" value="paso 32" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
