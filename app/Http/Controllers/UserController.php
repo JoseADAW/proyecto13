@@ -38,17 +38,15 @@ class UserController extends Controller
     public function store()
     {
         $data = request()->validate([
-            'name' =>'required'
+            'name' =>'required',
+            'email' =>'required|email|unique:users,email',
+            'password' =>'required',
         ],[
-            'name.required' => 'El campo nombre es obligatorio'
+            'name.required' => 'El campo nombre es obligatorio',
+            'email.required' => 'El campo email es obligatorio',
+            'password.required' => 'El campo contraseña es obligatorio',
         ]);
 
-
-    /*if (empty($data['name'])){
-        return redirect('usuarios/nuevo')->withErrors([
-            'name' => 'El campo nombre es obligatorio'
-        ]);
-    }*/
         User::create([
             'name'=>$data['name'],
             'email'=>$data['email'],
@@ -56,4 +54,6 @@ class UserController extends Controller
         ]);
         return redirect()->route('users');
     }
+
+
 }
