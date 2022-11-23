@@ -27,6 +27,6 @@ Route::get('usuarios/{user}', 'UserController@show')
     ->where('id', '[0-9]+')
     ->name('user.show');
 
-Route::put('usuarios/{user}', 'UserController@update')->name('users.update');
+Route::put('usuarios/{user}', 'UserController@update')->name('user.update');
 
 Route::get('saludo/{name}/{nickname?}', 'WelcomeUserController');

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f11e12-9712-4147-a4ad-b50e728d4174" name="Changes" comment="paso 32">
+    <list default="true" id="03f11e12-9712-4147-a4ad-b50e728d4174" name="Changes" comment="paso 33">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/UsersModuleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/UsersModuleTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +128,8 @@
       <workItem from="1668624508005" duration="5415000" />
       <workItem from="1669138814358" duration="7000" />
       <workItem from="1669138833958" duration="1000" />
-      <workItem from="1669138846613" duration="8260000" />
+      <workItem from="1669138846613" duration="8766000" />
+      <workItem from="1669225244993" duration="1911000" />
     </task>
     <task id="LOCAL-00001" summary="1st laracommit">
       <created>1666820015831</created>
@@ -312,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669147234143</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="paso 33">
+      <created>1669148066880</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1669148066880</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,7 +366,8 @@
     <MESSAGE value="paso 30" />
     <MESSAGE value="paso 31" />
     <MESSAGE value="paso 32" />
-    <option name="LAST_COMMIT_MESSAGE" value="paso 32" />
+    <MESSAGE value="paso 33" />
+    <option name="LAST_COMMIT_MESSAGE" value="paso 33" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
