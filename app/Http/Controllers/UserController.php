@@ -10,20 +10,32 @@ class UserController extends Controller
 {
     public function index()
     {
+        //$users = DB::table('users')->get();
+
         $users = User::all();
 
         $title = 'Listado de usuarios';
+
+        /*if (request()->has('empty')) {
+            $users = [];
+        } else {
+            $users = ['Joel', 'Ellie', 'Tess', 'Tommy', 'Bill'];
+        }*/
 
         return view('users.index', compact(
             'title',
             'users'
             )
         );
+
+        /*return view('users.index')
+            ->with('users', User::all())
+            ->with('title', 'Listado de usuarios');*/
     }
 
     public function show(User $user)
     {
-            if ($user == null){
+        if ($user == null) {
             return response()->view('errors.404', [], 404);
         }
 
@@ -38,20 +50,21 @@ class UserController extends Controller
     public function store()
     {
         $data = request()->validate([
-            'name' =>'required',
-            'email' =>'required|email|unique:users,email',
-            'password' =>'required',
-        ],[
+            'name' => 'required',
+            'email' => 'required|email|unique:users,email',
+            'password' => 'required',
+        ], [
             'name.required' => 'El campo nombre es obligatorio',
             'email.required' => 'El campo email es obligatorio',
             'password.required' => 'El campo contraseña es obligatorio',
         ]);
 
         User::create([
-            'name'=>$data['name'],
-            'email'=>$data['email'],
-            'password'=>bcrypt($data['password']),
+            'name' => $data['name'],
+            'email' => $data['email'],
+            'password' => bcrypt($data['password']),
         ]);
+
         return redirect()->route('users');
     }
 
@@ -63,20 +76,27 @@ class UserController extends Controller
     public function update(User $user)
     {
         $data = request()->validate([
-            'name'=>'required',
-            'email' =>'required|email|unique:users,email',
-            'password' =>'',
+            'name' => 'required',
+            'email' => 'required|email|unique:users,email,'.$user->id,
+            'password' => '',
         ]);
 
-        if ($data['password'] != null){
+        if ($data['password'] != null) {
             $data['password'] = bcrypt($data['password']);
-        }else{
+        } else {
             unset($data['password']);
         }
 
         $user->update($data);
 
-        return redirect()->route('user.show',$user);
+        return redirect()->route('user.show', $user);
+    }
+
+    public function destroy(User $user)
+    {
+        $user->delete();
+
+        return redirect()->route('users');
     }
 
 }
