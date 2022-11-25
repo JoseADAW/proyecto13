@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f11e12-9712-4147-a4ad-b50e728d4174" name="Changes" comment="paso 35">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="03f11e12-9712-4147-a4ad-b50e728d4174" name="Changes" comment="paso 36" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +125,7 @@
       <workItem from="1669138833958" duration="1000" />
       <workItem from="1669138846613" duration="8766000" />
       <workItem from="1669225244993" duration="6377000" />
-      <workItem from="1669397994880" duration="347000" />
+      <workItem from="1669397994880" duration="744000" />
     </task>
     <task id="LOCAL-00001" summary="1st laracommit">
       <created>1666820015831</created>
@@ -341,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669230991457</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="paso 36">
+      <created>1669398485562</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1669398485562</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +366,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="siguiente paso" />
     <MESSAGE value="paso 8" />
     <MESSAGE value="paso 9medio" />
     <MESSAGE value="paso 10" />
@@ -388,7 +390,8 @@
     <MESSAGE value="paso 33 Final" />
     <MESSAGE value="paso 34" />
     <MESSAGE value="paso 35" />
-    <option name="LAST_COMMIT_MESSAGE" value="paso 35" />
+    <MESSAGE value="paso 36" />
+    <option name="LAST_COMMIT_MESSAGE" value="paso 36" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
