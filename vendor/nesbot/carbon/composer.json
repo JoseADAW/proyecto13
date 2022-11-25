@@ -60,11 +60,6 @@
         ]
     },
     "extra": {
-        "update-helper": "Carbon\\Upgrade",
-        "laravel": {
-            "providers": [
-                "Carbon\\Laravel\\ServiceProvider"
-            ]
-        }
+        "update-helper": "Carbon\\Upgrade"
     }
 }

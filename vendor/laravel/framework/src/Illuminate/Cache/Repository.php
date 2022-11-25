@@ -123,13 +123,17 @@ class Repository implements CacheContract, ArrayAccess
      */
     public function getMultiple($keys, $default = null)
     {
-        $defaults = [];
-
-        foreach ($keys as $key) {
-            $defaults[$key] = $default;
+        if (is_null($default)) {
+            return $this->many($keys);
         }
 
-        return $this->many($defaults);
+        foreach ($keys as $key) {
+            if (! isset($default[$key])) {
+                $default[$key] = null;
+            }
+        }
+
+        return $this->many($default);
     }
 
     /**
@@ -168,7 +172,7 @@ class Repository implements CacheContract, ArrayAccess
      */
     public function pull($key, $default = null)
     {
-        return tap($this->get($key, $default), function ($value) use ($key) {
+        return tap($this->get($key, $default), function () use ($key) {
             $this->forget($key);
         });
     }
@@ -178,7 +182,7 @@ class Repository implements CacheContract, ArrayAccess
      *
      * @param  string  $key
      * @param  mixed   $value
-     * @param  \DateTimeInterface|\DateInterval|float|int  $minutes
+     * @param  \DateTimeInterface|\DateInterval|float|int|null  $minutes
      * @return void
      */
     public function put($key, $value, $minutes = null)
@@ -199,7 +203,7 @@ class Repository implements CacheContract, ArrayAccess
      */
     public function set($key, $value, $ttl = null)
     {
-        $this->put($key, $value, is_int($ttl) ? $ttl / 60 : null);
+        $this->put($key, $value, $ttl);
     }
 
     /**
@@ -225,7 +229,7 @@ class Repository implements CacheContract, ArrayAccess
      */
     public function setMultiple($values, $ttl = null)
     {
-        $this->putMany(is_array($values) ? $values : iterator_to_array($values), is_int($ttl) ? $ttl / 60 : null);
+        $this->putMany($values, $ttl);
     }
 
     /**
@@ -415,7 +419,7 @@ class Repository implements CacheContract, ArrayAccess
             throw new BadMethodCallException('This cache store does not support tagging.');
         }
 
-        $cache = $this->store->tags($names);
+        $cache = $this->store->tags(is_array($names) ? $names : func_get_args());
 
         if (! is_null($this->events)) {
             $cache->setEventDispatcher($this->events);
