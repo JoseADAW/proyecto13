@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f11e12-9712-4147-a4ad-b50e728d4174" name="Changes" comment="Segunda parte paso 0">
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/CreateUserRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/UserProfile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2022_11_25_183804_create_user_profiles_table.php" afterDir="false" />
+    <list default="true" id="03f11e12-9712-4147-a4ad-b50e728d4174" name="Changes" comment="Segunda parte paso 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/UsersModuleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/UsersModuleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +129,7 @@
       <workItem from="1669138846613" duration="8766000" />
       <workItem from="1669225244993" duration="6377000" />
       <workItem from="1669397994880" duration="8212000" />
+      <workItem from="1669645717363" duration="815000" />
     </task>
     <task id="LOCAL-00001" summary="1st laracommit">
       <created>1666820015831</created>
@@ -367,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669401388872</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Segunda parte paso 1">
+      <created>1669645871490</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1669645871490</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +391,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="paso 10" />
     <MESSAGE value="paso 11" />
     <MESSAGE value="paso 12" />
     <MESSAGE value="paso 14" />
@@ -414,7 +415,8 @@
     <MESSAGE value="paso 36" />
     <MESSAGE value="paso 39" />
     <MESSAGE value="Segunda parte paso 0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Segunda parte paso 0" />
+    <MESSAGE value="Segunda parte paso 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segunda parte paso 1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
