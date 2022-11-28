@@ -30,9 +30,13 @@ class CreateUserRequest extends FormRequest
             'email' => 'required|email|unique:users,email',
             'password' => 'required',
             'bio' => 'required',
-            'twitter' => ['nullable', 'url'],
-            'profession_id' =>Rule::exists('professions','id')
-                ->whereNull('deleted_at'),
+            'twitter' => ['nullable', 'present', 'url'],
+            'profession_id' => [
+                'nullable',
+                'present',
+                Rule::exists('professions', 'id')
+                                ->whereNull('deleted_at')
+            ],
         ];
     }
 
@@ -47,7 +51,6 @@ class CreateUserRequest extends FormRequest
 
     public function createUser()
     {
-
         User::createUser($this->validated());
     }
 }
