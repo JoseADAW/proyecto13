@@ -2,6 +2,7 @@
 
 namespace App\Http\Requests;
 
+use App\Role;
 use App\User;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;
@@ -41,6 +42,9 @@ class CreateUserRequest extends FormRequest
                 'array',
                 Rule::exists('skills', 'id')
             ],
+            'role' => ['nullable',
+                Rule::in(Role::getList()),
+            ]
         ];
     }
 
