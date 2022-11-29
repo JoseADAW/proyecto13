@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f11e12-9712-4147-a4ad-b50e728d4174" name="Changes" comment="Segunda parte paso 4">
-      <change afterPath="$PROJECT_DIR$/database/seeds/SkillSeader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/SkillSeeder.php" afterDir="false" />
+    <list default="true" id="03f11e12-9712-4147-a4ad-b50e728d4174" name="Changes" comment="Segunda parte paso 5">
+      <change afterPath="$PROJECT_DIR$/database/migrations/2022_11_29_182237_create_skill_user_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/SkillFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/SkillFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2022_11_15_193400_create_skills_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_11_15_193400_create_skills_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/CreateUserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/CreateUserRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/UsersModuleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/UsersModuleTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
@@ -139,7 +135,7 @@
       <workItem from="1669225244993" duration="6377000" />
       <workItem from="1669397994880" duration="8212000" />
       <workItem from="1669645717363" duration="9674000" />
-      <workItem from="1669732849615" duration="2254000" />
+      <workItem from="1669732849615" duration="4482000" />
     </task>
     <task id="LOCAL-00001" summary="1st laracommit">
       <created>1666820015831</created>
@@ -414,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669654657937</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Segunda parte paso 5">
+      <created>1669745555775</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1669745555775</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +439,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="paso 15" />
     <MESSAGE value="paso 18" />
     <MESSAGE value="paso 20" />
     <MESSAGE value="paso 21" />
@@ -461,7 +463,8 @@
     <MESSAGE value="Segunda parte paso 2" />
     <MESSAGE value="Segunda parte paso 3" />
     <MESSAGE value="Segunda parte paso 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Segunda parte paso 4" />
+    <MESSAGE value="Segunda parte paso 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segunda parte paso 5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
