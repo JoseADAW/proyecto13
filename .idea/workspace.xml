@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f11e12-9712-4147-a4ad-b50e728d4174" name="Changes" comment="Segunda parte paso 7">
-      <change afterPath="$PROJECT_DIR$/tests/Feature/Admin/CreateUsersTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/Admin/DeleteUsersTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/Admin/ListUsersTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/Admin/ShowUsersTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/Admin/UpdateUsersTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestHelpers.php" afterDir="false" />
+    <list default="true" id="03f11e12-9712-4147-a4ad-b50e728d4174" name="Changes" comment="Segunda parte paso 8">
+      <change afterPath="$PROJECT_DIR$/resources/views/shared/_errors.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/_fields.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/CreateUserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/CreateUserRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Role.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2022_11_29_182237_create_skill_user_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_11_29_182211_create_skill_user_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/UsersModuleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +134,7 @@
       <workItem from="1669397994880" duration="8212000" />
       <workItem from="1669645717363" duration="9674000" />
       <workItem from="1669732849615" duration="9440000" />
-      <workItem from="1669829963944" duration="1717000" />
+      <workItem from="1669829963944" duration="3669000" />
     </task>
     <task id="LOCAL-00001" summary="1st laracommit">
       <created>1666820015831</created>
@@ -440,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669751885580</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Segunda parte paso 8">
+      <created>1669831877119</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1669831877119</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +459,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="paso 21" />
     <MESSAGE value="paso 22" />
     <MESSAGE value="paso 23" />
     <MESSAGE value="paso 24" />
@@ -487,7 +483,8 @@
     <MESSAGE value="Segunda parte paso 5" />
     <MESSAGE value="Segunda parte paso 6" />
     <MESSAGE value="Segunda parte paso 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Segunda parte paso 7" />
+    <MESSAGE value="Segunda parte paso 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segunda parte paso 8" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
