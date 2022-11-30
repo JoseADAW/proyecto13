@@ -3,10 +3,9 @@
 @section('title', 'Editar usuario')
 
 @section('content')
-    <h1>Editar usuario</h1>
-
+    @card
+        @slot('header','Editar usuario')
     @include('shared._errors')
-
     <form action="{{ route('user.update', $user) }}" method="post">
         {{ method_field('PUT') }}
 
@@ -17,4 +16,5 @@
             <a href="{{ route('users') }}" class="btn btn-link">Regresar al listado de usuarios</a>
         </div>
     </form>
+    @endcard
 @endsection

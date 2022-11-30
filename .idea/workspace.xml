@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f11e12-9712-4147-a4ad-b50e728d4174" name="Changes" comment="Segunda parte paso 8">
-      <change afterPath="$PROJECT_DIR$/resources/views/shared/_errors.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/_fields.blade.php" afterDir="false" />
+    <list default="true" id="03f11e12-9712-4147-a4ad-b50e728d4174" name="Changes" comment="Segunda parte paso 11">
+      <change afterPath="$PROJECT_DIR$/resources/views/shared/_card.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Profession.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Profession.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
     </list>
@@ -46,25 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/daw21-07/docker/proyecto14&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.3033367&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/daw21-07/docker/proyecto14",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Configurable.PHP.Blade",
+    "settings.editor.splitter.proportion": "0.3033367",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views/users" />
@@ -134,7 +134,7 @@
       <workItem from="1669397994880" duration="8212000" />
       <workItem from="1669645717363" duration="9674000" />
       <workItem from="1669732849615" duration="9440000" />
-      <workItem from="1669829963944" duration="3669000" />
+      <workItem from="1669829963944" duration="5350000" />
     </task>
     <task id="LOCAL-00001" summary="1st laracommit">
       <created>1666820015831</created>
@@ -437,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669831877119</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Segunda parte paso 11">
+      <created>1669833882757</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1669833882757</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +466,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="paso 22" />
     <MESSAGE value="paso 23" />
     <MESSAGE value="paso 24" />
     <MESSAGE value="paso 25" />
@@ -484,7 +490,8 @@
     <MESSAGE value="Segunda parte paso 6" />
     <MESSAGE value="Segunda parte paso 7" />
     <MESSAGE value="Segunda parte paso 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Segunda parte paso 8" />
+    <MESSAGE value="Segunda parte paso 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segunda parte paso 11" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
