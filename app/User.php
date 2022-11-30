@@ -61,7 +61,8 @@ class User extends Authenticatable
                 'email' => $data['email'],
                 'password' => bcrypt($data['password']),
             ]);
-            $user ->role = $data['role'] ?? 'user';
+
+            $user->role = $data['role'] ?? 'user';
 
             $user->save();
 

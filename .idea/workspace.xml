@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03f11e12-9712-4147-a4ad-b50e728d4174" name="Changes" comment="Segunda parte paso 6">
-      <change afterPath="$PROJECT_DIR$/app/Role.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/users.php" afterDir="false" />
+    <list default="true" id="03f11e12-9712-4147-a4ad-b50e728d4174" name="Changes" comment="Segunda parte paso 7">
+      <change afterPath="$PROJECT_DIR$/tests/Feature/Admin/CreateUsersTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/Admin/DeleteUsersTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/Admin/ListUsersTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/Admin/ShowUsersTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/Admin/UpdateUsersTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestHelpers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Requests/CreateUserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/CreateUserRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Role.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UserSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2022_11_29_182237_create_skill_user_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2022_11_29_182211_create_skill_user_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/users.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/UsersModuleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/UsersModuleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/UsersModuleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +43,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/tests/Feature/UsersModuleTest.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/tests/Feature/WelcomeUsersTest.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -139,7 +143,8 @@
       <workItem from="1669225244993" duration="6377000" />
       <workItem from="1669397994880" duration="8212000" />
       <workItem from="1669645717363" duration="9674000" />
-      <workItem from="1669732849615" duration="8506000" />
+      <workItem from="1669732849615" duration="9440000" />
+      <workItem from="1669829963944" duration="1717000" />
     </task>
     <task id="LOCAL-00001" summary="1st laracommit">
       <created>1666820015831</created>
@@ -428,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669747963759</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Segunda parte paso 7">
+      <created>1669751885580</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1669751885580</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +462,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="paso 20" />
     <MESSAGE value="paso 21" />
     <MESSAGE value="paso 22" />
     <MESSAGE value="paso 23" />
@@ -475,7 +486,8 @@
     <MESSAGE value="Segunda parte paso 4" />
     <MESSAGE value="Segunda parte paso 5" />
     <MESSAGE value="Segunda parte paso 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Segunda parte paso 6" />
+    <MESSAGE value="Segunda parte paso 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segunda parte paso 7" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

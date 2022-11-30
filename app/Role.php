@@ -6,6 +6,6 @@ class Role
 {
     public static function getList()
     {
-        return ['admin','user'];
+        return ['admin', 'user'];
     }
 }

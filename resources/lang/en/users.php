@@ -1,7 +1,8 @@
 <?php
-return [
-    'roles' =>[
-        'admin' => 'Administrator',
-        'user'=> 'User',
-    ],
-];
+
+    return [
+        'roles' => [
+            'admin' => 'Administrator',
+            'user' => 'User',
+        ],
+    ];

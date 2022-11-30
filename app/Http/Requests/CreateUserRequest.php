@@ -42,9 +42,10 @@ class CreateUserRequest extends FormRequest
                 'array',
                 Rule::exists('skills', 'id')
             ],
-            'role' => ['nullable',
-                Rule::in(Role::getList()),
-            ]
+            'role' => [
+                'nullable',
+                Rule::in(Role::getList())
+            ],
         ];
     }
 
